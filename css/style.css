@@ -1,0 +1,121 @@
+/* only for now, we will remove these css later */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Quicksand:wght@300&family=Supermercado+One&family=Ubuntu:wght@300;400&display=swap");
+
+:root {
+  --grey: #313131;
+  --white: #fff;
+  --optional: #d1d1d1;
+  --black: #000;
+  --primary: #e41e3f;
+  --yellow: #f0e160;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 80px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* general css classes */
+
+.web_container {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+
+.web_row {
+  display: flex;
+}
+
+.section_title {
+  padding: 15px;
+  margin: 15px auto;
+  text-align: center;
+  width: 100%;
+  color: var(--primary);
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+.sub_title {
+  padding: 9px;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  color: var(--yellow);
+  font-size: 1.9rem;
+}
+.web_btn {
+  padding: 9px 18px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--primary);
+  border-radius: 8px;
+  font-size: 18px;
+  display: inline-block;
+  width: max-content;
+  max-width: 100%;
+}
+.web_btn.btn_outline {
+  color: var(--primary);
+  background-color: var(--white);
+  border: 2px solid var(--primary);
+}
+.mx_auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.d_block {
+  display: block;
+}
+
+.text_center {
+  text-align: center;
+}
+.category_items_row {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 35px 0;
+}
+
+.category_card {
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+.category_card img {
+  margin: 12px auto;
+}
