@@ -105,6 +105,15 @@ p {
 .text_center {
   text-align: center;
 }
+
+.chat_btn {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  font-size: 21px;
+}
+/* Electronics Section */
 .category_items_row {
   flex-wrap: wrap;
   justify-content: center;
@@ -127,7 +136,7 @@ p {
 .product_row {
   flex-wrap: wrap;
   max-width: 920px;
-  margin: 0 auto;
+  margin: 15px auto;
   gap: 9px;
 }
 .product_card {
