@@ -31,6 +31,27 @@ window.onscroll = () =>{
 
 }
 
+// code from pieces on 8/8/2024
+document.getElementById('search-btn').addEventListener('click', function() {
+    var searchForm = document.querySelector('.search-form');
+    if (searchForm.style.display === 'none') {
+        searchForm.style.display = 'block';
+    } else {
+        searchForm.style.display = 'none';
+    }
+});
+
+document.getElementById('cart-btn').addEventListener('click', function() {
+    var cartSummary = document.querySelector('.cart-summary');
+    if (cartSummary.style.display === 'none') {
+        cartSummary.style.display = 'block';
+    } else {
+        cartSummary.style.display = 'none';
+    }
+});
+
+
+
 
 
 
